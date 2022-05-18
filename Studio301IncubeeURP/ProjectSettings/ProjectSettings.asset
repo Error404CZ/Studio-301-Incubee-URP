@@ -766,7 +766,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    Standalone: GRIFFIN;GRIFFIN_2020
+    Standalone: GRIFFIN;GRIFFIN_2020;GRIFFIN_URP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
