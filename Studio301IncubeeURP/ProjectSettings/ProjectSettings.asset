@@ -765,7 +765,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: GRIFFIN;GRIFFIN_2020
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
