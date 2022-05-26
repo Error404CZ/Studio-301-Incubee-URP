@@ -4,3 +4,4 @@
 4. Make shader for water
 5. Add light
 6. Add animations
+7. Add time change button and time animation
