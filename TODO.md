@@ -2,6 +2,5 @@
 2. Add buildings
 3. Add person controller
 4. Make shader for water
-5. Add light
-6. Add animations
-7. change time button animation
+5. Add better light 
+6. change time button animation
