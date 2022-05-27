@@ -1,23 +1,37 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class TimeChanger : MonoBehaviour
 {
-    public bool night;
+    [Header("Time change settings")]
+    [HideInInspector] public bool night;
     [SerializeField] private Light mainLight;
+    [SerializeField] private float firstValueIntensity;
+    [SerializeField] private float secondValueIntensity;
+    [SerializeField] private float timeChangeDuration;
+    private void Start()
+    {
+        DOTween.Init();
+    }
+
     public void ChangeTime()
     {
         switch (night)
         {
             case true:
-                mainLight.intensity = 1;
+                mainLight.DOIntensity(firstValueIntensity, timeChangeDuration);
                 night = false;
                 break;
             case false:
-                mainLight.intensity = 0;
+                mainLight.DOIntensity(secondValueIntensity, timeChangeDuration);
                 night = true;
                 break;
         }
+        
     }
+
 }

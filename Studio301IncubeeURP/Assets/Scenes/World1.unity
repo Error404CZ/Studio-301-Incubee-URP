@@ -1637,6 +1637,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   night: 0
   mainLight: {fileID: 1823634327}
+  firstValueIntensity: 0.1
+  secondValueIntensity: 1
+  timeChangeDuration: 2
 --- !u!850595691 &1594322517
 LightingSettings:
   m_ObjectHideFlags: 0
