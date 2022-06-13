@@ -151,11 +151,12 @@ MonoBehaviour:
     enableInstancing: 1
     billboardStart: 100
     treeDistance: 200
-    cullVolumeBias: 10
+    treeCullBias: 0
     drawGrasses: 1
     grassDistance: 100
     grassCellToProcessPerFrame: 1
     grassFadeStart: 0.75
+    grassCullBias: 0
   foliageDefault:
     trees: {fileID: 11400000, guid: 0af7475bfa20a88428c4fdadbd83fa37, type: 2}
     treeSnapMode: 0

@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8fda743b539a043b220ae6e99779c2, type: 3}
+  m_Name: SharedTrees0_637907311044366266
+  m_EditorClassIdentifier: 
+  prototypes:
+  - prefab: {fileID: 1341996488332780, guid: 6e3c35af30a28104ab1ec170195dc650, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 25eec62dbe6fad049845fb58aac9ee29, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: f060003264469674aad81ac4c67a59e9, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 1
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 2.09
+      height: 11.65
+      direction: 1
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
+  - prefab: {fileID: 426123789145460816, guid: 6162978843b812645b55d91aa94ded4c, type: 3}
+    sharedMesh: {fileID: 4300004, guid: 0f4df284e59e6864b827cf920bcde2eb, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 918c39926d6ac6b459c226df83376a98, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 1
+    colliderInfo:
+      center: {x: 0.19807994, y: 2.7617157, z: -0.057520926}
+      radius: 0.5
+      height: 6.1754727
+      direction: 1
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
+  - prefab: {fileID: 5134749125101954788, guid: f4cfc7d864800a742972be4fded81065,
+      type: 3}
+    sharedMesh: {fileID: 4300016, guid: 0f4df284e59e6864b827cf920bcde2eb, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 918c39926d6ac6b459c226df83376a98, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 1
+    colliderInfo:
+      center: {x: 0.055091888, y: 1.5312271, z: 0.047474355}
+      radius: 0.22
+      height: 3.3573837
+      direction: 1
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
+  - prefab: {fileID: 141078, guid: 51c1c04146bac56469780953edd2418c, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 55bf19dbf31e8c74bb0ee0bd860cf343, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 31b16fd87cf33014c946e9d512d1e03c, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
+  - prefab: {fileID: 186820, guid: 552bbac1690f8ce44a9201a2cec82c4b, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 2290675b2cccbe54798045d5872bcbb5, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 31b16fd87cf33014c946e9d512d1e03c, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
+  - prefab: {fileID: 107988, guid: ad49c548c939c434e8c7700f06099bdd, type: 3}
+    sharedMesh: {fileID: 4300000, guid: 2615f6896e17316439a86b6c1e661700, type: 3}
+    sharedMaterials:
+    - {fileID: 2100000, guid: 31b16fd87cf33014c946e9d512d1e03c, type: 2}
+    shadowCastingMode: 1
+    receiveShadow: 1
+    billboardShadowCastingMode: 0
+    billboardReceiveShadow: 0
+    layer: 0
+    keepPrefabLayer: 0
+    billboard: {fileID: 0}
+    hasCollider: 0
+    colliderInfo:
+      center: {x: 0, y: 0, z: 0}
+      radius: 0
+      height: 0
+      direction: 0
+    pivotOffset: 0
+    baseRotation: {x: 0, y: 0, z: 0, w: 1}
+    baseScale: {x: 1, y: 1, z: 1}
+    editor_PrefabAssetPath: 
