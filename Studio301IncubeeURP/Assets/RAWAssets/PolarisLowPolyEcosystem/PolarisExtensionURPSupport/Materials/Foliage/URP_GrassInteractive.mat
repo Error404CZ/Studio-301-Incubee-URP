@@ -128,7 +128,7 @@ Material:
     - _WavingTint: {r: 1, g: 1, b: 1, a: 1}
     - _Wind: {r: 1, g: 1, b: 4, a: 8}
   m_BuildTextureStacks: []
---- !u!114 &949460111159856496
+--- !u!114 &178818929327475501
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

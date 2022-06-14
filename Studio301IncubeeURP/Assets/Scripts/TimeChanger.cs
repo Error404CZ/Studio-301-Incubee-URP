@@ -8,11 +8,14 @@ using Unity.VisualScripting;
 public class TimeChanger : MonoBehaviour
 {
     [Header("Time change settings")]
-    [HideInInspector] public bool night;
+    public bool night;
     [SerializeField] private Light mainLight;
     [SerializeField] private float firstValueIntensity;
     [SerializeField] private float secondValueIntensity;
     [SerializeField] private float timeChangeDuration;
+
+    private float lightTemperature;
+
     private void Start()
     {
         DOTween.Init();
@@ -22,16 +25,20 @@ public class TimeChanger : MonoBehaviour
     {
         switch (night)
         {
-            case true:
-                mainLight.DOIntensity(firstValueIntensity, timeChangeDuration);
-                night = false;
-                break;
             case false:
-                mainLight.DOIntensity(secondValueIntensity, timeChangeDuration);
+                mainLight.DOIntensity(firstValueIntensity, timeChangeDuration);
                 night = true;
+                DOTween.To(()=> mainLight.colorTemperature, x=> mainLight.colorTemperature = x, 20000, timeChangeDuration);
+                break;
+            case true:
+                mainLight.DOIntensity(secondValueIntensity, timeChangeDuration);
+                DOTween.To(()=> mainLight.colorTemperature, x=> mainLight.colorTemperature = x, 6500, timeChangeDuration);
+                night = false;
                 break;
         }
         
     }
+    
+    
 
 }
